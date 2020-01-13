@@ -1,0 +1,10 @@
+%{
+  "bin_packer": {:hex, :bin_packer, "0.1.0", "63faef5fd53ab3ef507a18503a20d64cb6b5e8cfd8b0e82dbe2273276a7b7664", [:mix], [], "hexpm", "66856fcdac0bb2f61931cfc7e2fc79d79a4aecc342719d46c093ab396eac9ee3"},
+  "earmark_parser": {:hex, :earmark_parser, "1.4.10", "6603d7a603b9c18d3d20db69921527f82ef09990885ed7525003c7fe7dc86c56", [:mix], [], "hexpm", "8e2d5370b732385db2c9b22215c3f59c84ac7dda7ed7e544d7c459496ae519c0"},
+  "ex_doc": {:hex, :ex_doc, "0.23.0", "a069bc9b0bf8efe323ecde8c0d62afc13d308b1fa3d228b65bca5cf8703a529d", [:mix], [{:earmark_parser, "~> 1.4.0", [hex: :earmark_parser, repo: "hexpm", optional: false]}, {:makeup_elixir, "~> 0.14", [hex: :makeup_elixir, repo: "hexpm", optional: false]}], "hexpm", "f5e2c4702468b2fd11b10d39416ddadd2fcdd173ba2a0285ebd92c39827a5a16"},
+  "interval_map": {:hex, :interval_map, "0.1.0", "e191408af165dcb2e868363d8e774b54723f109019abf1586ab6a28d8d4a74eb", [:mix], [], "hexpm", "70a175c534ffe45f442cdba2b60756986b7def85e6d8050570b8fc15e0ba1986"},
+  "makeup": {:hex, :makeup, "1.0.5", "d5a830bc42c9800ce07dd97fa94669dfb93d3bf5fcf6ea7a0c67b2e0e4a7f26c", [:mix], [{:nimble_parsec, "~> 0.5 or ~> 1.0", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm", "cfa158c02d3f5c0c665d0af11512fed3fba0144cf1aadee0f2ce17747fba2ca9"},
+  "makeup_elixir": {:hex, :makeup_elixir, "0.15.0", "98312c9f0d3730fde4049985a1105da5155bfe5c11e47bdc7406d88e01e4219b", [:mix], [{:makeup, "~> 1.0", [hex: :makeup, repo: "hexpm", optional: false]}, {:nimble_parsec, "~> 1.1", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm", "75ffa34ab1056b7e24844c90bfc62aaf6f3a37a15faa76b07bc5eba27e4a8b4a"},
+  "nimble_parsec": {:hex, :nimble_parsec, "1.1.0", "3a6fca1550363552e54c216debb6a9e95bd8d32348938e13de5eda962c0d7f89", [:mix], [], "hexpm", "08eb32d66b706e913ff748f11694b17981c0b04a33ef470e33e11b3d3ac8f54b"},
+  "partition_map": {:hex, :partition_map, "0.1.0", "40b045c4f85b0caba0b094c65fab1f5143086d2f24dae70f63c7e4d376a21294", [:mix], [{:interval_map, "~> 0.1.0", [hex: :interval_map, repo: "hexpm", optional: false]}], "hexpm", "c590ec9701418673b7a22463171b5c3158db55ef36bfd56354635a65230c72d6"},
+}
